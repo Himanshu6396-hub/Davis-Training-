@@ -1,0 +1,54 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Himanshu6396-hub/Davis-Training-/blob/main/Program%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Function to calculate final price\n",
+        "def calculate_discount(price, discount_percent):\n",
+        "    discount_amount = (price * discount_percent) / 100\n",
+        "    final_price = price - discount_amount\n",
+        "    return final_price\n",
+        "\n",
+        "# Taking input from user\n",
+        "price = float(input(\"Enter price: \"))\n",
+        "discount = float(input(\"Enter discount percentage: \"))\n",
+        "\n",
+        "# Function call\n",
+        "result = calculate_discount(price, discount)\n",
+        "\n",
+        "# Output\n",
+        "print(\"Final price after discount:\", result)"
+      ],
+      "metadata": {
+        "id": "tGKokBEMDfyV"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
