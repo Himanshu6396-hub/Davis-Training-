@@ -1,0 +1,9 @@
+def evenOdd(a)
+    if a%2==0:
+      return 1
+a=int(input("Enter the number"))
+b=evenOdd(a)
+if b==1:
+   print("Number is Even")
+else:
+   print("Number is Odd")
