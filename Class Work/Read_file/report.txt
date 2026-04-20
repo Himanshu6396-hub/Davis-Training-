@@ -1,0 +1,30 @@
+Student Name: Himanshu
+Project Title: Reading a GitHub File in Python using Google Colab
+Objective:
+To read a Python file from my GitHub repository into Google Colab using a raw URL and process its
+content.
+GitHub File Used:
+Original Link: https://github.com/Himanshu6396-hub/Davis-Training-/blob/main/Class%20Work/Nu
+mpy/operation.py
+Converted Raw Link:
+https://raw.githubusercontent.com/Himanshu6396-hub/Davis-Training-/main/Class%20Work/Nump
+y/operation.py
+Steps Performed:
+1. Opened GitHub repository.
+2. Located the required file (operation.py).
+3. Converted normal GitHub URL into raw format.
+4. Used Python requests library in Google Colab.
+5. Fetched file content using HTTP request.
+6. Printed and analyzed the file data.
+Python Code Used:
+import requests
+url = 'https://raw.githubusercontent.com/Himanshu6396-hub/Davis-Training-/main/Class%20Work/
+Numpy/operation.py'
+response = requests.get(url)
+data = response.text
+print(data)
+Output:
+The content of operation.py file was successfully displayed in Google Colab.
+Conclusion:
+I successfully learned how to access and read files directly from GitHub without downloading the
+repository. This method is useful for data analysis, coding practice, and project integration.
