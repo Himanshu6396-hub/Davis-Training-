@@ -1,0 +1,13 @@
+import numpy as np
+# first array
+a=np.array([10,20,30,40,50])
+# second array 
+b=np.array([46,86,94,55])
+print("--------------------")
+print("First array")
+print(a)
+print("Second array")
+print(b)
+print("------------------")
+x=np.median(a)
+print(x)
